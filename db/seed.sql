@@ -1,16 +1,14 @@
--- Connect to the database
-\c employees
-
-INSERT INTO department
-    (name)
+INSERT INTO department (name)
 VALUES
     ('Sales'),
     ('Engineering'),
     ('Finance'),
-    ('Legal');
+    ('Legal')
+    ('Marketing'),
+    ('Product'),
+    ('Leadership');
 
-INSERT INTO role
-    (title, salary, department_id)
+INSERT INTO role (title, salary, department_id)
 VALUES
     ('Sales Lead', 100000, 1),
     ('Salesperson', 80000, 1),
@@ -21,14 +19,13 @@ VALUES
     ('Legal Team Lead', 250000, 4),
     ('Lawyer', 190000, 4);
 
-INSERT INTO employee
-    (first_name, last_name, role_id, manager_id)
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
-    ('Jane', 'Smith', 1, NULL),
+    ('Caitlin', 'Clark', 1, NULL),
     ('Justin', 'Boston', 2, 1),
-    ('Amy', 'Chan', 3, NULL),
+    ('Mia', 'Hamm', 3, NULL),
     ('Kevin', 'Undertaker', 4, 3),
-    ('Jeremy', 'Brown', 5, NULL),
+    ('Anthony', 'Brown', 5, NULL),
     ('Tiger', 'Woods', 6, 5),
     ('Lebron', 'James', 7, NULL),
     ('Alex', 'Rodriguez', 8, 7);
