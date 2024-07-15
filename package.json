@@ -1,16 +1,28 @@
 {
   "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Module 12 Challenge: SQL Employee Tracker",
+  "main": "server.js",
   "scripts": {
-    "start": "node index"
+    "test": "jest",
+    "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinboston/hw12-employee-tracker.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinboston/hw12-employee-tracker"
+  },
+  "homepage": "https://github.com/justinboston/hw12-employee-tracker/blob/main/README.md",
   "dependencies": {
-    "asciiart-logo": "^0.2.6",
-    "inquirer": "8.2.4",
-    "pg": "^8.11.3"
+    "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
+    "inquirer": "^8.2.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.10.2"
   }
 }
