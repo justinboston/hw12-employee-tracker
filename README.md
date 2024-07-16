@@ -21,7 +21,7 @@ To use this application:
 <li> After providing a response to all questions/prompts for your desired use case, your database request will respond based on your input.</li>
 </ul>
 
-For additional usage instructions, please click this [link to view a Demo Video](https://drive.google.com/file/d/1Kb29JioCFQVJRrxrtfTUleN7gQxCpIwD/view?usp=drive_link).
+For additional usage instructions, please click this [link to view a Demo Video](https://drive.google.com/file/d/1UfoFcdsSas_feUdbaAjGqig6FKZjDQYK/view?usp=sharing).
 
 ## Tech & Credits
 
@@ -36,7 +36,7 @@ For additional usage instructions, please click this [link to view a Demo Video]
 
 <ul>
 <li> [GitHub Repo](https://github.com/justinboston/hw12-employee-tracker)</li>
-<li> [Demo Video] (https://drive.google.com/file/d/1Kb29JioCFQVJRrxrtfTUleN7gQxCpIwD/view?usp=drive_link)</li>
+<li> [Demo Video] (https://drive.google.com/file/d/1UfoFcdsSas_feUdbaAjGqig6FKZjDQYK/view?usp=sharing)</li>
 </ul>
 
 ## Liscense
