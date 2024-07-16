@@ -1,13 +1,15 @@
+-- Insert into department table
 INSERT INTO department (name)
 VALUES
     ('Sales'),
     ('Engineering'),
     ('Finance'),
-    ('Legal')
+    ('Legal'),
     ('Marketing'),
     ('Product'),
     ('Leadership');
 
+-- Insert into role table
 INSERT INTO role (title, salary, department_id)
 VALUES
     ('Sales Lead', 100000, 1),
@@ -17,8 +19,12 @@ VALUES
     ('Account Manager', 160000, 3),
     ('Accountant', 125000, 3),
     ('Legal Team Lead', 250000, 4),
-    ('Lawyer', 190000, 4);
+    ('Lawyer', 190000, 4),
+    ('Marketing Specialist', 110000, 5),  
+    ('Product Manager', 130000, 6),  
+    ('Leadership Coach', 140000, 7);  
 
+-- Insert into employee table
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES
     ('Caitlin', 'Clark', 1, NULL),
@@ -29,3 +35,4 @@ VALUES
     ('Tiger', 'Woods', 6, 5),
     ('Lebron', 'James', 7, NULL),
     ('Alex', 'Rodriguez', 8, 7);
+
